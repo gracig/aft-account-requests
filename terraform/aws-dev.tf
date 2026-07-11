@@ -1,5 +1,5 @@
 module "aws_dev" {
-  source = "aws-ia/control_tower_account_factory/aws//modules/aft-account-request"
+  source = "aws-ia/control_tower_account_factory/aws//modules/aft-account-request-framework"
 
   control_tower_parameters = {
     AccountEmail              = "aws-dev@llgconsultoria.com"
