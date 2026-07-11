@@ -4,7 +4,7 @@ module "aws_prod" {
   control_tower_parameters = {
     AccountEmail              = "aws-prod@llgconsultoria.com"
     AccountName               = "aws-prod"
-    ManagedOrganizationalUnit = "Prod"
+    ManagedOrganizationalUnit = "Production"
     SSOUserEmail              = "gerson@llgconsultoria.com"
     SSOUserFirstName          = "Gerson"
     SSOUserLastName           = "Graciani"

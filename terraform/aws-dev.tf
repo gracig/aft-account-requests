@@ -4,7 +4,7 @@ module "aws_dev" {
   control_tower_parameters = {
     AccountEmail              = "aws-dev@llgconsultoria.com"
     AccountName               = "aws-dev"
-    ManagedOrganizationalUnit = "Dev"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "gerson@llgconsultoria.com"
     SSOUserFirstName          = "Gerson"
     SSOUserLastName           = "Graciani"
