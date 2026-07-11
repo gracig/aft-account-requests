@@ -1,19 +1,3 @@
-terraform {
-  required_version = ">= 0.15.0"
-  required_providers {
-    aws = { source = "hashicorp/aws", version = ">= 3.15" }
-  }
-}
-
-provider "aws" {
-  region = "us-east-1"
-}
-
-provider "aws" {
-  alias  = "ct_management"
-  region = "us-east-1"
-
-  assume_role {
-    role_arn = "arn:aws:iam::141971524659:role/AWSControlTowerExecution"
-  }
-}
+# This file is intentionally minimal.
+# AFT renders backend.jinja and aft-providers.jinja at pipeline time
+# to generate the actual backend and provider configuration.

@@ -1,5 +1,5 @@
 module "aws_sandbox" {
-  source = "aws-ia/control_tower_account_factory/aws//modules/aft-account-request-framework"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "aws-sandbox@llgconsultoria.com"
